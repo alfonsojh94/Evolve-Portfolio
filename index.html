@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Portfolio - Alfonso Jiménez Hidalgo</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox" />
+        <label for="open-menu" class="header__open-nav-button" role="button"
+          ><i class="bi bi-three-dots-vertical"></i
+        ></label>
+        <div class="header__logo-container">
+          <img
+            src="/source/logo_A.jpg"
+            alt="Logo Giacomo Genito"
+            class="header__logo logo--desktop"
+          />
+          <img
+            src="/source/logo_A.jpg"
+            alt="Logo Giacomo Genito"
+            class="header__logo logo--mobile"
+          />
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="">PROFILE</a></li>
+            <li class="header__nav-item"><a href="">PORTFOLIO</a></li>
+            <li class="header__nav-item"><a href="">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
