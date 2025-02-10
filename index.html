@@ -121,5 +121,46 @@
         </div>
       </div>
     </section>
+
+    <!--FORMULARIO-->
+
+    <section class="form">
+      <div class="form__container">
+        <div class="form__container-titulo">
+          <h2>FORMULARIO</h2>
+        </div>
+
+        <div class="form--wrapper">
+          <form action="">
+            <fieldset class="fieldset__first">
+              <legend>Información Personal</legend>
+              <label for="username">Nombre</label>
+              <input type="text" name="username" placeholder="Your name" />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="ejemplo@email.com"
+              />
+            </fieldset>
+
+            <fieldset class="fieldset__second">
+              <legend>Mensaje</legend>
+              <label for="asunto">Asunto</label>
+              <input
+                type="text"
+                name="asunto"
+                placeholder="Titulo de mensaje"
+              />
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" id=""></textarea>
+              <label class="curriculum" for="cv">Adjunta CV</label>
+              <input class="file" type="file" />
+              <input class="btn" type="submit" value="ENVIAR" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
